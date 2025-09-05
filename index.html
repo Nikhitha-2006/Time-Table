@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>MBU Timetable Left Side</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    .header {
+        text-align: center;
+    }
+    .header img {
+        width: 80px;
+        display: block;
+        margin: 0 auto;
+    }
+    .header h1 {
+        color: #d23a3a;
+        margin: 5px 0;
+        font-size: 22px;
+    }
+    .header p {
+        margin: 2px 0;
+        font-size: 14px;
+    }
+    table {
+        border-collapse: collapse;
+        width: 50%;
+        height:50%;
+        font-size: 14px;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        margin-left: 25vw;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 12px;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    .vertical {
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+        font-weight: bold;
+        direction: rtl;
+        unicode-bidi: bidi-override;
+    }
+</style>
+</head>
+<body>
+
+<div class="header">
+    <a style="left: auto;"><img src="logo.png" alt="MBU Logo" style="position: relative; right: 220px ;top: 100px;width: 150px;height: 130px;"></a>
+    <h1>MOHAN BABU UNIVERSITY</h1>
+    <p>Sree Sainath Nagar, A. Rangampet-517102</p>
+    <p><b>SCHOOL OF COMPUTING</b></p>
+    <p><b>DEPARTMENT OF DATA SCIENCE</b></p>
+    <p><b>CLASS WORK TIME TABLE (2025-26)</b></p>
+    <p><b>V Semester (CS-1)</b></p>
+</div>
+
+<table>
+    <tr>
+        <th>DAY / HR</th>
+        <th>11:10 AM TO 12:05 PM</th>
+        <th>12:05 PM TO 01:00 PM</th>
+        <th class="vertical" rowspan="6">LUNCH BREAK</th>
+        <th>02:15 PM TO 03:10 PM</th>
+        <th>03:10 PM TO 04:05 PM</th>
+        <th class="vertical" rowspan="6">BREAK</th>
+        <th>04:15 PM TO 05:10 PM</th>
+        <th>05:10 PM TO 06:05 PM</th>
+    </tr>
+    <tr>
+        <td>MON</td>
+        <td>CSE</td>
+        <td>WT</td>
+        <td>WT LAB</td>
+        <td>ML</td>
+        <td>ML</td>
+        <td>CAO (MOOC)</td>
+    </tr>
+    <tr>
+        <td>TUE</td>
+        <td colspan="2">CP (Room No. 1810)</td>
+        <td>CSE</td>
+        <td>ML</td>
+        <td>SSE (MOOC)</td>
+        <td>CAO (MOOC)</td>
+    </tr>
+    <tr>
+        <td>WED</td>
+        <td>WT</td>
+        <td>CSE</td>
+        <td>ML LAB</td>
+        <td>—</td>
+        <td>CP (Room No. 1810)</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>THU</td>
+        <td>QAVA</td>
+        <td>—</td>
+        <td>WT</td>
+        <td>LIB</td>
+        <td>SSE (MOOC)</td>
+        <td>CAO (MOOC)</td>
+    </tr>
+    <tr>
+        <td>FRI</td>
+        <td>QAVA</td>
+        <td>—</td>
+        <td colspan="2">CP (Room No. 1810)</td>
+        <td>ML</td>
+        <td>LIB</td>
+    </tr>
+</table>
+
+</body>
+</html>
